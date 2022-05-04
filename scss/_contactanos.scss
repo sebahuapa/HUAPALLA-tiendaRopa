@@ -1,0 +1,27 @@
+#contactoText{
+    font-size: 18px;
+}
+#logoWsp{
+    font-size: 40px;
+    color:green;
+}
+#logoEmail{
+    @extend #logoWsp;
+    color:cornflowerblue;
+}
+#logoLocation{
+    @extend #logoWsp;
+    color:red;
+}
+#contactoButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 5px;
+    max-width: 200px;
+}
+#contImg{
+    max-width: 250px;
+}
+
